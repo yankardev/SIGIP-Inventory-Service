@@ -1,12 +1,12 @@
-D:\YANCARLOS\CIBERTEC-T\06- VI CUATRIMESTRE\MODULO 01\DES APP WEB II\PROYECTO\SIGIP\SIGIP-Inventory-Service\src\main\java\pe\edu\cibertec\sigip\inventoryservice\controller\InsumoController.java
-D:\YANCARLOS\CIBERTEC-T\06- VI CUATRIMESTRE\MODULO 01\DES APP WEB II\PROYECTO\SIGIP\SIGIP-Inventory-Service\src\main\java\pe\edu\cibertec\sigip\inventoryservice\dto\InsumoRequest.java
-D:\YANCARLOS\CIBERTEC-T\06- VI CUATRIMESTRE\MODULO 01\DES APP WEB II\PROYECTO\SIGIP\SIGIP-Inventory-Service\src\main\java\pe\edu\cibertec\sigip\inventoryservice\dto\InsumoResponse.java
-D:\YANCARLOS\CIBERTEC-T\06- VI CUATRIMESTRE\MODULO 01\DES APP WEB II\PROYECTO\SIGIP\SIGIP-Inventory-Service\src\main\java\pe\edu\cibertec\sigip\inventoryservice\dto\MovimientoRequest.java
-D:\YANCARLOS\CIBERTEC-T\06- VI CUATRIMESTRE\MODULO 01\DES APP WEB II\PROYECTO\SIGIP\SIGIP-Inventory-Service\src\main\java\pe\edu\cibertec\sigip\inventoryservice\dto\MovimientoResponse.java
-D:\YANCARLOS\CIBERTEC-T\06- VI CUATRIMESTRE\MODULO 01\DES APP WEB II\PROYECTO\SIGIP\SIGIP-Inventory-Service\src\main\java\pe\edu\cibertec\sigip\inventoryservice\InventoryServiceApplication.java
-D:\YANCARLOS\CIBERTEC-T\06- VI CUATRIMESTRE\MODULO 01\DES APP WEB II\PROYECTO\SIGIP\SIGIP-Inventory-Service\src\main\java\pe\edu\cibertec\sigip\inventoryservice\model\Insumo.java
-D:\YANCARLOS\CIBERTEC-T\06- VI CUATRIMESTRE\MODULO 01\DES APP WEB II\PROYECTO\SIGIP\SIGIP-Inventory-Service\src\main\java\pe\edu\cibertec\sigip\inventoryservice\model\MovimientoInventario.java
-D:\YANCARLOS\CIBERTEC-T\06- VI CUATRIMESTRE\MODULO 01\DES APP WEB II\PROYECTO\SIGIP\SIGIP-Inventory-Service\src\main\java\pe\edu\cibertec\sigip\inventoryservice\model\TipoMovimiento.java
-D:\YANCARLOS\CIBERTEC-T\06- VI CUATRIMESTRE\MODULO 01\DES APP WEB II\PROYECTO\SIGIP\SIGIP-Inventory-Service\src\main\java\pe\edu\cibertec\sigip\inventoryservice\repository\InsumoRepository.java
-D:\YANCARLOS\CIBERTEC-T\06- VI CUATRIMESTRE\MODULO 01\DES APP WEB II\PROYECTO\SIGIP\SIGIP-Inventory-Service\src\main\java\pe\edu\cibertec\sigip\inventoryservice\repository\MovimientoInventarioRepository.java
-D:\YANCARLOS\CIBERTEC-T\06- VI CUATRIMESTRE\MODULO 01\DES APP WEB II\PROYECTO\SIGIP\SIGIP-Inventory-Service\src\main\java\pe\edu\cibertec\sigip\inventoryservice\service\InsumoService.java
+D:\01-CIBERTEC\VI CUATRIMESTRE\MODULO 01\DES-APP-WEB-II - LUIS-SALVATIERRA\PROYECTO\SIGIP\SIGIP-Inventory-Service\src\main\java\pe\edu\cibertec\sigip\inventoryservice\controller\InsumoController.java
+D:\01-CIBERTEC\VI CUATRIMESTRE\MODULO 01\DES-APP-WEB-II - LUIS-SALVATIERRA\PROYECTO\SIGIP\SIGIP-Inventory-Service\src\main\java\pe\edu\cibertec\sigip\inventoryservice\dto\InsumoRequest.java
+D:\01-CIBERTEC\VI CUATRIMESTRE\MODULO 01\DES-APP-WEB-II - LUIS-SALVATIERRA\PROYECTO\SIGIP\SIGIP-Inventory-Service\src\main\java\pe\edu\cibertec\sigip\inventoryservice\dto\InsumoResponse.java
+D:\01-CIBERTEC\VI CUATRIMESTRE\MODULO 01\DES-APP-WEB-II - LUIS-SALVATIERRA\PROYECTO\SIGIP\SIGIP-Inventory-Service\src\main\java\pe\edu\cibertec\sigip\inventoryservice\dto\MovimientoRequest.java
+D:\01-CIBERTEC\VI CUATRIMESTRE\MODULO 01\DES-APP-WEB-II - LUIS-SALVATIERRA\PROYECTO\SIGIP\SIGIP-Inventory-Service\src\main\java\pe\edu\cibertec\sigip\inventoryservice\dto\MovimientoResponse.java
+D:\01-CIBERTEC\VI CUATRIMESTRE\MODULO 01\DES-APP-WEB-II - LUIS-SALVATIERRA\PROYECTO\SIGIP\SIGIP-Inventory-Service\src\main\java\pe\edu\cibertec\sigip\inventoryservice\InventoryServiceApplication.java
+D:\01-CIBERTEC\VI CUATRIMESTRE\MODULO 01\DES-APP-WEB-II - LUIS-SALVATIERRA\PROYECTO\SIGIP\SIGIP-Inventory-Service\src\main\java\pe\edu\cibertec\sigip\inventoryservice\model\Insumo.java
+D:\01-CIBERTEC\VI CUATRIMESTRE\MODULO 01\DES-APP-WEB-II - LUIS-SALVATIERRA\PROYECTO\SIGIP\SIGIP-Inventory-Service\src\main\java\pe\edu\cibertec\sigip\inventoryservice\model\MovimientoInventario.java
+D:\01-CIBERTEC\VI CUATRIMESTRE\MODULO 01\DES-APP-WEB-II - LUIS-SALVATIERRA\PROYECTO\SIGIP\SIGIP-Inventory-Service\src\main\java\pe\edu\cibertec\sigip\inventoryservice\model\TipoMovimiento.java
+D:\01-CIBERTEC\VI CUATRIMESTRE\MODULO 01\DES-APP-WEB-II - LUIS-SALVATIERRA\PROYECTO\SIGIP\SIGIP-Inventory-Service\src\main\java\pe\edu\cibertec\sigip\inventoryservice\repository\InsumoRepository.java
+D:\01-CIBERTEC\VI CUATRIMESTRE\MODULO 01\DES-APP-WEB-II - LUIS-SALVATIERRA\PROYECTO\SIGIP\SIGIP-Inventory-Service\src\main\java\pe\edu\cibertec\sigip\inventoryservice\repository\MovimientoInventarioRepository.java
+D:\01-CIBERTEC\VI CUATRIMESTRE\MODULO 01\DES-APP-WEB-II - LUIS-SALVATIERRA\PROYECTO\SIGIP\SIGIP-Inventory-Service\src\main\java\pe\edu\cibertec\sigip\inventoryservice\service\InsumoService.java
