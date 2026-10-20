@@ -1,13 +1,24 @@
-# SIGIP-Inventory-Service
-Microservicio de inventario e insumos para SIGIP.
-- Java 25, Spring Boot 3.5.6, Spring Cloud 2025.0.0
-- Puerto 8098; base de datos sigip_inventory
-- Variables opcionales: DB_USERNAME, DB_PASSWORD, EUREKA_URL
-Endpoints:
-- GET/POST /api/inventario/insumos
-- GET/PUT/DELETE /api/inventario/insumos/{id}
-- GET /api/inventario/movimientos
-- GET /api/inventario/movimientos/insumo/{id}
-- POST /api/inventario/movimientos (ENTRADA o SALIDA; actualiza stock)
-- GET /api/inventory/health
-La salida no permite stock negativo. La aplicación crea/actualiza tablas con JPA en desarrollo.
+# inventory-service
+
+Inventario: insumos, stock mínimo y kárdex de movimientos.
+
+## Funcionalidad
+
+- `GET|POST|PUT|DELETE /api/v1/insumos` (ADMIN).
+- El stock cambia solo con movimientos: `POST /api/v1/insumos/{id}/movimientos` (ENTRADA/SALIDA); nunca queda negativo (409).
+- `GET /api/v1/insumos/bajo-stock` → insumos en o bajo el mínimo.
+- Bloqueo optimista (`@Version`) para actualizaciones concurrentes.
+
+## Pruebas
+
+- `InsumoRepositoryTest`, `InsumoIntegrationTest`
+
+## Ejecución
+
+Puerto `8098`. Base local `sigip_inventory` (MySQL); en la nube, esquema propio en PostgreSQL.
+
+Variables: `DB_USER`, `DB_PASSWORD`, `JWT_SECRET` (o `DB_URL` completa).
+
+```bash
+mvn -pl backend/inventory-service -am spring-boot:run
+```

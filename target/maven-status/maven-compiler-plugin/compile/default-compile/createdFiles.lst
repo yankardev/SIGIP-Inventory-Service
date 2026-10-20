@@ -1,0 +1,14 @@
+pe\edu\cibertec\sigip\inventoryservice\dto\MovimientoResponse.class
+pe\edu\cibertec\sigip\inventoryservice\InventoryServiceApplication.class
+pe\edu\cibertec\sigip\inventoryservice\dto\InsumoRequest.class
+pe\edu\cibertec\sigip\inventoryservice\model\Insumo$InsumoBuilder.class
+pe\edu\cibertec\sigip\inventoryservice\service\InsumoService.class
+pe\edu\cibertec\sigip\inventoryservice\model\MovimientoInventario.class
+pe\edu\cibertec\sigip\inventoryservice\model\MovimientoInventario$MovimientoInventarioBuilder.class
+pe\edu\cibertec\sigip\inventoryservice\model\TipoMovimiento.class
+pe\edu\cibertec\sigip\inventoryservice\model\Insumo.class
+pe\edu\cibertec\sigip\inventoryservice\dto\InsumoResponse.class
+pe\edu\cibertec\sigip\inventoryservice\repository\InsumoRepository.class
+pe\edu\cibertec\sigip\inventoryservice\repository\MovimientoInventarioRepository.class
+pe\edu\cibertec\sigip\inventoryservice\controller\InsumoController.class
+pe\edu\cibertec\sigip\inventoryservice\dto\MovimientoRequest.class
