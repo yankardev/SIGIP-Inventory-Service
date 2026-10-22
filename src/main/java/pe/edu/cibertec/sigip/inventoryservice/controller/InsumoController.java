@@ -12,11 +12,11 @@ import pe.edu.cibertec.sigip.inventoryservice.service.InsumoService;
 
 import java.util.List;
 
-/** Inventario de insumos (uso interno: rol ADMIN). */
+/** Inventario de insumos para ADMIN y OPERACIONES. */
 @RestController
 @RequestMapping("/api/v1/insumos")
 @RequiredArgsConstructor
-@PreAuthorize("hasRole('ADMIN')")
+@PreAuthorize("hasAnyRole('ADMIN','OPERACIONES')")
 public class InsumoController {
 
     private final InsumoService service;
